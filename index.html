@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pratigya Shrestha</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <nav>
+      <a href="#" class="logo">Pra<span>tig</span>ya</a>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About me</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#" class="menu-icon" onclick="menu()"><i class="fa-solid fa-bars"></i></a>
+    </nav>
+
+    <div class="container">
+      <section id="home">
+        <img src="./assets/image/about.png" alt="" class="home-img" />
+        <div class="home-text">
+          <div class="slide">
+            <span class="a">HI</span>
+            <span class="b">I'm</span>
+          </div>
+          <h1>Pratigya Shrestha</h1>
+          <h3>Junior <span>Developer</span></h3>
+          <p>Seeking for a platform to develop career</p>
+          <div class="button">
+            <a href="./about.html" class="btn">About Me</a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!----About Section---->
+
+    <div class="main" id="about">
+      <div class="main1">
+        <div class="about-img">
+          <img src="./assets/image/about.png" alt="" />
+        </div>
+        <div class="intro">
+          <h2>Profile</h2>
+          <p>
+            I am a BCA student at Aadim College. I am eager to learn and grow in the field of technology. I have basic
+            knowledge of HTML, CSS, and Java, and I am looking for opportunities to improve my skills and gain
+            experience.
+          </p>
+        </div>
+      </div>
+
+      <div class="main2">
+        <div class="table">
+          <h2>Academic</h2>
+          <table>
+            <tr>
+              <th>Qualification</th>
+              <th>Year of Passing</th>
+              <th>Institution</th>
+            </tr>
+            <tr>
+              <td>10</td>
+              <td>2020</td>
+              <td>Peak Point Academy</td>
+            </tr>
+            <tr>
+              <td>+2</td>
+              <td>2021</td>
+              <td>Aadim National College</td>
+            </tr>
+            <tr>
+              <td>BCA</td>
+              <td>2023</td>
+              <td>Aadim National College</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="qualities">
+          <h2>Qualities</h2>
+          <ul>
+            <li>Communication</li>
+            <li>Time Management</li>
+            <li>Teamwork</li>
+          </ul>
+        </div>
+
+        <div class="language">
+          <h2>Language</h2>
+          <ul>
+            <li>English</li>
+            <li>Nepali</li>
+            <li>Newari</li>
+          </ul>
+        </div>
+
+        <div class="hobbies">
+          <h2>Hobbies</h2>
+          <ul>
+            <li>Coding</li>
+            <li>Travelling</li>
+            <li>Singing</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!---Contact Section--->
+    <section class="contact" id="contact">
+      <div class="contact-text">
+        <h2>Contact <span>Me!!</span></h2>
+        <h4>If you want any junior developer for your project</h4>
+        <p>I'm a junior developer - hardworking and energetic</p>
+        <div class="list">
+          <li><a href="#">9818144952</a></li>
+          <li><a href="#">Pratigya2061@gmail.com</a></li>
+        </div>
+        <div class="contact-icons">
+          <a href="https://www.facebook.com/pristika.stha"><i class="icon fa-brands fa-facebook"></i></a>
+          <a href="#"><i class="icon fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="contact-form">
+        <form>
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <input type="number" placeholder="Your Number" required />
+          <textarea cols="30" rows="15" placeholder="How Can I Help You" required></textarea>
+          <input type="submit" value="Send Message" class="submit" />
+        </form>
+      </div>
+    </section>
+
+    <section class="end">
+      <div class="last-text">
+        <p>Design by Pratigya</p>
+      </div>
+      <div class="top">
+        <a href="#home"><i class="icon fa-solid fa-arrow-up"></i></a>
+      </div>
+    </section>
+
+    <!-- JS -->
+    <script>
+      function menu() {
+        document.querySelector("nav ul").classList.toggle("show");
+      }
+    </script>
+  </body>
+</html>
